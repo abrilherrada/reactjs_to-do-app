@@ -1,0 +1,68 @@
+.pendingTasksContainer, .completedTasksContainer{
+    border: 3px solid hsl(0, 0%, 10%);
+    margin: 40px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 10%);
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.noData{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 50%);
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pendingListItem{
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 50%);
+}
+
+.completedListItem{
+    background-color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 90%);
+    text-decoration: line-through;
+}
+
+.deleteButton, .moveButton, .completeButton{
+    font-size: 1.7rem;
+    margin-left: 15px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    padding: 0px;    
+    background-color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.deleteButton:hover{
+    background-color: hsl(0, 50%, 50%);
+}
+
+.moveButton:hover{
+    background-color: hsl(207, 50%,50%);
+}
+
+.completeButton:hover{
+    background-color: hsl(143, 50%, 50%);
+}

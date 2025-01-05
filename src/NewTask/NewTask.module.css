@@ -1,0 +1,29 @@
+.container{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.addButton{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    background-color: hsl(0, 0%, 50%);
+}
+
+.addButton:hover{
+    background-color: hsl(207, 50%,50%);
+}
+
+input[type='text']{
+    width: 60%;
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 3px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 100%, 0.5);
+}
