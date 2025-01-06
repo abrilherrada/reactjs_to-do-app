@@ -1,5 +1,4 @@
 import React, {useState, createContext} from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NewTask from "../NewTask/NewTask.jsx";
 import Tasks from "../Tasks/Tasks.jsx";
 import styles from "./Container.module.css";
